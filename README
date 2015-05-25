@@ -5,5 +5,5 @@ A simple mock first-stage bootloader. It loads nothing, just illustrates the ske
 It can be compiled with nasm:
 $ nasm bootloader.asm -o bootloader.bin -f bin
 
-And can be tested using qemu:
+And can be tried out using qemu:
 $ qemu -fda bootloader.bin
