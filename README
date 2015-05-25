@@ -1,6 +1,6 @@
 # os
 
-A simple mock first-stage bootloader. It loads nothing, but illustrates the skeleton of a proper bootloader.
+A simple mock first-stage bootloader. It loads nothing, just illustrates the skeleton of a basic bootloader.
 
 It can be compiled with nasm:
 nasm bootloader.asm -o bootloader.bin -f bin
